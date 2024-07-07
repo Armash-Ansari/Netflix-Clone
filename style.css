@@ -1,0 +1,231 @@
+body{
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family:"Poppins", sans-serif;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 120px;
+    margin-right: 70px;
+}
+.nav-flex-image{
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+}
+.nav-flex-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown {
+    background-color: transparent;
+    color: white;
+    margin-top: 40px;
+    padding:6px 12px;
+    font-size: 16px;
+    border:1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dropdown:hover{
+    border-color: white;
+}
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 255);
+}
+.sign-in{
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 6px 12px;
+    border: none;
+}
+.sign-in:hover{
+    background-color: rgb(255, 55, 55);
+}
+.background-image{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.3337710084033614) 0%, rgba(0,0,0,1) 100%), url("images/backgroung-img.jpg");  
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    margin:0px;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh ; 
+    position: relative;
+    z-index: 2; 
+    padding-top: 160px;
+}
+.main-heading{
+    font-size: 45px;
+    font-weight: 700;
+}
+.main-text{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.form-control{
+    padding: 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.695);
+}
+.navbar2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 120px;
+    margin-right: 70px;
+}
+.email-box{
+    width: 500px;
+    backdrop-filter: blur(10px);
+}
+.email-box::placeholder{
+    opacity: 0.5;
+    color: rgba(255, 255, 255, 0.695);
+    display: flex;
+    align-items: center;
+}
+.sign-in-btn{
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-top: -7px;
+    padding: 9px;
+}
+.section-top{
+    border-top: 10px solid #333;
+}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.tv-text{
+    text-align: left;
+    padding-top: 120px;
+}
+.tv-container {
+    position: relative;
+}
+.video-align {
+    position: absolute;
+    top: 19%;
+    left: 0px;
+    width: 82%;
+    height: 61%;
+    overflow: hidden;
+}
+.video{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.div-over-img{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 1800px;
+    left: 283px;
+    padding: 5px;
+    justify-content: space-between;
+    border: 2px gray solid;
+    border-radius: 12px;
+    background-color: black;
+}
+.i-pc-img{
+    position: relative;
+    z-index: 1;
+}
+.video-align-2{
+    position: absolute;
+    top: 10%;
+    left: 19%;
+    right: 19%;
+    width: 62%;
+    overflow: hidden;
+}   
+.accordion{
+    background-color: #333;
+    color: white;
+}
+.accordion-item {
+    color: white;
+    border: none;
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+    background-color: #333;
+}
+.accordions-button {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+    background-color: #444;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-body {
+    background-color: #222;
+    padding: 20px;
+    color: #bbb;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.text-align{
+    text-align: left;
+    text-decoration: underline;
+}
+.text-align2{
+    text-align: left;
+}
+.no-text{
+    text-decoration: none;
+}
+.footer{
+    color:lightgray;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 100px 0px;
+}
